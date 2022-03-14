@@ -1,0 +1,116 @@
+.btnAgregar{
+   width: 50%;
+   background-color:#03dac6;
+   color: #fff;
+   font-weight: 600;
+   border-radius: 0 0 40px 0;
+   margin-top: .5rem;
+   border: none;
+   border-style: none;
+}
+.btnAgregar:hover{
+   background-color:#ff0266;
+   color: #fff;
+   border: none;
+   border-style: none;
+}
+
+.btnPedido{
+   width: 50%;
+   background-color:#ff0266;
+   color: #fff;
+   font-weight: 600;
+   border-radius: 40px 0 0 0;
+   margin-left: 0rem;
+   margin-top: .5rem;
+   border: none;
+}
+
+
+
+
+@media (min-width: 360px) { 
+   .btnAgregar{
+      width: 100%;
+      background-color:#03dac6;
+      color: #fff;
+      border-radius: 0%;
+      font-weight: 400;
+      margin-top: .5rem;
+      border: none;
+      border-style: none;
+   }
+   .btnAgregar:hover{
+      background-color:#ff0266;
+      color: #fff;
+      border: none;
+      border-style: none;
+   }
+   
+   .btnPedido{
+   width: 100%;
+      background-color:#ff0266;
+      color: #fff;
+      border-radius: 0%;
+      font-weight: 400;
+      margin-left: 0rem;
+      margin-top: .5rem;
+      border: none;
+   }
+   .btnPedido:hover{
+      background-color:#03dac6;
+      color: #fff;
+      border: none;
+      border-style: none;
+   }
+}
+
+@media (min-width: 576px) { 
+}
+
+@media (min-width: 768px) { 
+}
+
+
+
+@media (min-width: 992px) { 
+   .btnAgregar{
+      width: 50%;
+      background-color:#03dac6;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 0 0 40px 0;
+      margin-top: .5rem;
+      border: none;
+      border-style: none;
+   }
+   .btnAgregar:hover{
+      background-color:#ff0266;
+      color: #fff;
+      border: none;
+      border-style: none;
+   }
+   
+   .btnPedido{
+      width: 50%;
+      background-color:#ff0266;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 40px 0 0 0;
+      margin-left: 0rem;
+      margin-top: .5rem;
+      border: none;
+   }
+   .btnPedido:hover{
+      background-color:#03dac6;
+      color: #fff;
+      border: none;
+      border-style: none;
+   }
+}
+
+@media (min-width: 1200px) { 
+}
+
+@media (min-width: 1400px) {
+}

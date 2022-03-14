@@ -1,0 +1,40 @@
+@media (min-width: 360px) { 
+   .botonContact{
+      display: block;
+      margin: 12px 50px -12px 50px;
+   } 
+   .btn{
+      margin-top:10px;
+   }
+}
+@media (min-width: 576px) { 
+   .botonContact{
+      display:flex;
+      justify-content: center;
+      margin: 12px -50px -12px -50px;
+   }
+    
+}
+
+@media (min-width: 768px) { 
+   .botonContact{
+      display:flex;
+      justify-content: center;
+      margin: 12px -50px -12px -50px;
+   } 
+  
+}
+
+@media (min-width: 992px) { 
+   .guaches{
+      display: inline-block;
+   }
+}
+
+@media (min-width: 1200px) { 
+   
+}
+
+@media (min-width: 1400px) {
+   
+}

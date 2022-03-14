@@ -1,0 +1,198 @@
+.emptyCart {
+  height: calc(90vh - 13rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.emptyCart img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+  max-width: 200px;
+}
+.emptyCart button {
+  background: #03dac6;
+  color: #fff;
+  font-weight: 600;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0 16px 0 16px;
+  cursor: pointer;
+  margin-top: 2.5rem;
+}
+.btnClose{
+  margin-right: -49%;
+  margin-top: 2%;
+  background-color: #ff0266;
+}
+.btnClose:hover{
+  margin-right: -49%;
+  margin-top: 2%;
+  background-color: #03dac6;
+}
+.card-title{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+.card-text{
+  width: 60vw;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.text-price{
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+.btnProcederCompra{
+  width: 40%;
+  height: 45px;
+  background-color: #03dac6;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 3px auto 6% auto ;
+  border-radius: 0 16px 0 16px;
+  cursor: pointer;
+}
+.btnProcederCompra:hover{
+  background-color: #ff0266;
+  color: #fff;
+  border-radius: 16px 0 16px 0;
+  cursor: pointer;
+}
+
+@media (min-width: 360px) { 
+  .btnClose{
+    margin-right: 2%;
+    margin-top: 6%;
+    background-color: #ff0266;
+  }
+  .btnClose:hover{
+    margin-right: -49%;
+    margin-top: 2%;
+    background-color: #03dac6;
+  }
+  .card-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+  }
+  .card-text{
+    width: 80vw;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .text-price{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    margin-left: 20%;
+  }
+  .btnProcederCompra{
+    width: 80%;
+  }
+}
+
+@media (min-width: 576px) { 
+  .btnClose{
+    margin-right: 2%;
+    margin-top: 3%;
+    background-color: #ff0266;
+  }
+  .btnClose:hover{
+    margin-right: -49%;
+    margin-top: 3%;
+    background-color: #03dac6;
+  }
+  .card-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+  }
+  .card-text{
+    width: 80vw;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .text-price{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    margin-left: 36%;
+  }
+}
+
+@media (min-width: 768px) {
+  .btnClose{
+    margin-right: -50%;
+    margin-top: 3%;
+    background-color: #ff0266;
+  }
+  .btnClose:hover{
+    margin-right: -50%;
+    margin-top: 3%;
+    background-color: #03dac6;
+  }
+  .card-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+  }
+  .card-text{
+    width: 60vw;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .text-price{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    margin-left: 0%;
+  }
+  .btnProcederCompra{
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .btnClose{
+    margin-right: -50%;
+    margin-top: 3%;
+    background-color: #ff0266;
+  }
+  .btnClose:hover{
+    margin-right: -50%;
+    margin-top: 3%;
+    background-color: #03dac6;
+  }
+  .card-title{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+  }
+  .card-text{
+    width: 60vw;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .text-price{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    margin-left: 0%;
+  }
+}

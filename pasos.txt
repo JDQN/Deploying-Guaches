@@ -1,0 +1,93 @@
+EN ESTE TXT MOSTRAMOS LOS FOLDER O ARCHIVES CREADOS PARA NUESTRO PROYECTO
+
+   1. Import Browser Router -> npm install react-router-dom@6
+   2. Import Bootstrap -> npm i bootstrap
+   3. Import Font Awesome -> npm i fontawesome
+
+   4. Create Folder Components
+      a.Archive Home.jsx
+      b.Archive Header.jsx
+      c.Archive Footer.jsx
+      d.archive About.jsx
+      e.Archive Product.jsx
+      f.Archive Contact.jsx
+      g.Archive Productdetail.jsx
+
+   5.Create Folder Buttons
+      a.Archive Login.jsx
+      b.Archive Signup.jsx
+      c.Archive CardBtn.jsx
+
+   6.Create Folder public/assets/images/home
+      img1.jpg
+      img2.jpg
+      img3.jpg
+      img4.jpg
+
+   7.Creta Archive data.jsx
+
+   8.Create Folder redux
+      a.a Creater Folder actions
+         a.b Create Archive index.jsx
+      b.b Cretae Folder reducers
+         b.c Create Archive addItem.jsx
+
+
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import '../components/styles/home.css'
+
+
+const Home = () => {
+   return (
+      <>
+        <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" className="active" aria-label="Slide 1" aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" className=""></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" className=""></button>
+        </div>
+
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src="../assets/images/home/img1.png" alt="" className="bd-placeholder-img" width="100%" height="100%" />
+            <div className="container">
+              <div className="carousel-caption text-start">
+                <NavLink className="btn btn-lg btn-info boton" to="/contact">Contactanos</NavLink>
+              </div>
+            </div>
+          </div>
+
+          <div className="carousel-item">
+            <img src="../assets/images/home/img1.png" alt="" className="bd-placeholder-img" width="100%" height="100%" />
+            <div className="container">
+              <div className="carousel-caption text-start">
+                  <NavLink className="btn btn-lg btn-info boton" to="/contact">Contactanos</NavLink>
+              </div>
+            </div>
+          </div>
+
+          <div className="carousel-item">
+            <img src="../assets/images/home/img1.png" alt="" className="bd-placeholder-img" width="100%" height="100%" />
+            <div className="container">
+              <div className="carousel-caption text-start">
+                  <NavLink className="btn btn-lg btn-info boton" to="/contact">Contactanos</NavLink>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
+      </div>
+    </>
+   )
+}
+
+    

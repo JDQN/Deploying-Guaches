@@ -1,0 +1,100 @@
+const DATA = [
+   {
+      id: 0,
+      title: 'Product 1',
+      price: 100,
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
+      category: "gorras",
+      img: 'https://img.freepik.com/vector-gratis/fondo-promocional-gran-apertura-pronto_52683-61196.jpg?w=826'
+   },
+   {
+      id: 1,
+      title: 'Product 2',
+      price: 200,
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
+      category: "gorras",
+      img: 'https://img.freepik.com/vector-gratis/fondo-promocional-gran-apertura-pronto_52683-61196.jpg?w=826'
+   },
+   {
+      id: 2,
+      title: 'Product 3',
+      price: 300,
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
+      category: "gorras",
+      img: 'https://img.freepik.com/vector-gratis/fondo-promocional-gran-apertura-pronto_52683-61196.jpg?w=826'
+   },
+   {
+      id: 3,
+      title: 'Product 4',
+      price: 400,
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
+      category: "gorras",
+      img: 'https://img.freepik.com/vector-gratis/fondo-promocional-gran-apertura-pronto_52683-61196.jpg?w=826'
+   },
+   {
+      id: 4,
+      title: 'Product 5',
+      price: 500,
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
+      category: "camisetas",
+      img: 'https://img.freepik.com/vector-gratis/fondo-promocional-gran-apertura-pronto_52683-61196.jpg?w=826'
+   },
+   {
+      id: 5,
+      title: 'Product 6',
+      price: 600,
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
+      category: "camisetas",
+      img: 'https://img.freepik.com/vector-gratis/fondo-promocional-gran-apertura-pronto_52683-61196.jpg?w=826'
+   },
+   {
+      id: 6,
+      title: 'Product 7',
+      price: 700,
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
+      category: "camisetas",
+      img: 'https://img.freepik.com/vector-gratis/fondo-promocional-gran-apertura-pronto_52683-61196.jpg?w=826'
+   },
+   {
+      id: 7,
+      title: 'Product 8',
+      price: 800,
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
+      category: "mugs",
+      img: '/assets/images/home/img4.jpg'
+   },
+   {
+      id: 8,
+      title: 'Product 9',
+      price: 900,
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
+      category: "mugs",
+      img: 'https://img.freepik.com/vector-gratis/fondo-promocional-gran-apertura-pronto_52683-61196.jpg?w=826'
+   },
+   {
+      id: 9,
+      title: 'Product 10',
+      price: 1000,
+      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
+      category: "stickers",
+      img: 'https://img.freepik.com/vector-gratis/fondo-promocional-gran-apertura-pronto_52683-61196.jpg?w=826'
+   },
+   {
+      id: 10,
+      title: 'Product 11',
+      price: 1100,
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
+      category: "stickers",
+      img: 'https://img.freepik.com/vector-gratis/fondo-promocional-gran-apertura-pronto_52683-61196.jpg?w=826'
+   },
+   {
+      id: 20,
+      title: 'Product 12',
+      price: 1200,
+      desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.',
+      category: "stickers",
+      img: 'https://img.freepik.com/vector-gratis/fondo-promocional-gran-apertura-pronto_52683-61196.jpg?w=826'
+   },
+];
+
+export default DATA;

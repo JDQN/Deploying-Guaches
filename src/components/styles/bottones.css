@@ -1,0 +1,46 @@
+@media (min-width: 360px) { 
+   .btnBotton{
+      border-radius:  16px 0 16px 0;
+      border-color: #03dac6;
+      color:#03dac6;
+   }
+   .btnBotton:hover{
+      border-radius:  16px 0 16px 0;
+      border-color:#ff0266;
+      background-color: #ff0266;
+      color: #fff;
+      border-style: none;
+   }
+}
+
+@media (min-width: 576px) { 
+}
+
+@media (min-width: 768px) { 
+}
+
+
+
+
+@media (min-width: 992px) { 
+   .btnBotton{
+      border-radius:  16px 0 16px 0;
+      border-color: #03dac6;
+      color:#03dac6;
+   }
+   .btnBotton:hover{
+      border-radius:  16px 0 16px 0;
+      border-color:#ff0266;
+      background-color: #ff0266;
+      color: #fff;
+      border-style: none;
+   }
+}
+
+@media (min-width: 1200px) { 
+
+}
+
+@media (min-width: 1400px) {
+
+}
