@@ -109,7 +109,7 @@ const Checkout = () => {
                      </form>
                      <a
                         onClick={() => {setMessage(createMessage)}}
-                        target="_blank"
+                        target="_blank" 
                         href={`https://api.whatsapp.com/send?phone=+573134941951&text=${message}`} >
                         <button className="w-100 btn btnRealizarPerdido btn-lg">Realizar el pedido</button>
                      </a>
