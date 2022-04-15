@@ -10,7 +10,7 @@ const Checkout = () => {
    const createMessage = () => {
       let message = `Hola ${state.map((item) =>{
          return(
-            JSON.stringify(item.title) + '*  ' +
+            JSON.stringify(item.title) + ' *  ' +
             JSON.stringify(item.price) + 
             ' \n\n Total a pagar ' + total
          )
@@ -109,7 +109,8 @@ const Checkout = () => {
                      </form>
                      <a
                         onClick={() => {setMessage(createMessage)}}
-                        href={`https://api.whatsapp.com/send?phone=+573216615397&text=${message}`}>
+                        target="_blank"
+                        href={`https://api.whatsapp.com/send?phone=+573134941951&text=${message}`} >
                         <button className="w-100 btn btnRealizarPerdido btn-lg">Realizar el pedido</button>
                      </a>
                   </div>

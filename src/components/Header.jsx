@@ -49,3 +49,8 @@ const Header = () => {
 }
 
 export default Header
+
+/* 
+   Mi heder esta compuesto de un nav  y unos botones qde login y reguistro que para esta 
+   versión no tiene funcionalidad  
+*/

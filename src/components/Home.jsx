@@ -86,7 +86,7 @@ const Home = () => {
                           <h5 className="card-title-home mb-0">{product.title.substring(0,100)}</h5>
                           <hr/>
                           <p className="card-text-home">{product.desc}</p>
-                          <p className="card-text-home fw-bold">{product.price}</p>
+                          <p className="card-text-home fw-bold">$ {product.price}</p>
                           <NavLink to={`/products/${product.id}`} className="btn btnComprar">Comprar Ahora</NavLink>
                         </div>
                       </div>
