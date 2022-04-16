@@ -25,7 +25,7 @@ const Cart = () => {
         <div className="container card mb-5 my-5 py-2">
           <div className="row g-0">
               <div className="col-md-3">
-                <img src={cartItem.img} className="img-fluid rounded-start" alt={cartItem.title} height="300px" />
+                <img src={cartItem.img} className="img-fluid rounded-start" alt={cartItem.title} height="200px" />
               </div>
 
               <div className="col-md-6">
@@ -48,7 +48,7 @@ const Cart = () => {
     return (
 
       <div className='emptyCart'>
-      <img src='https://merchlist.co/assets/emptycart.png' alt='' />
+      <img src='/assets/images/home/carrovacio.png' alt='Carrito vacio' height="200px"  />
       <button onClick={handleRoute}>
         <i className='fa fa-arrow-left'></i>Ir a la tienda
       </button>

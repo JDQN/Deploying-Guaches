@@ -7,10 +7,11 @@
   margin-bottom: 5%;
 }
 .emptyCart img {
-  width: 100vw;
-  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
   object-fit: contain;
-  max-width: 200px;
+  max-width: 100px;
 }
 .emptyCart button {
   background: #03dac6;

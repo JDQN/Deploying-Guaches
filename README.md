@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+### Proyecto Guaches_Shirt 👋 💻 🤓 🖥
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>
+  En este repositorio encontrara el codigo fuente del E-commerce Guaches_Shirt
+</p>
 
-## Available Scripts
+<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
 
-In the project directory, you can run:
+<p><em> EducaMas -> <a href="https://educamas.com.co/"> EducaMas - Programate</a>, Regional. 💻 </br>
+</em></p>
 
-### `npm start`
+<h2> 👨🏻•💻  TEAM 👨🏻•💻 </h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎓 &nbsp; Juan David Quimbayo Nuñez.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<h3>🛠 Stack 🛠 </h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🌐 &nbsp; HTML5 | CSS3 | Bootstrap |
+- 🛢 &nbsp; Json Server | <a href="https://github.com/JDQN/jsonapi"> Link del repositorio de la api</a>
+- 💻 &nbsp; React | 
+- 🖥 &nbsp; Deploying | <a href="https://guaches.vercel.app/"> Link del deploying</a>
 
-### `npm run build`
+<h2>💻  Sobre Guaches_Shirt 💻</h2>
+<p>
+  Somos un emprendimiento rolo dedicado al estampado y sublimado de textiles y 
+  accesorios de toda clase para ocasiones especiales y empresas (mugs, camisetas, gorras, busos, medias) 
+  en diferentes materiales de excelente calidad. Nuestro enfoque es hacer que las personas tengan 
+  prendas diferentes, que resalten entre las cosas que vemos diariamente en el común, con un toque 
+  de simplicidad haciendo lo que mejor sabemos hacer estampando y sublimando.
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2>💻 IMAGENES DE GUACHES_SHIRT 💻</h2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img align='right' src="https://github.com/JDQN/Deploying-Guaches/blob/main/1.Home.png" width="500"/>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="https://github.com/JDQN/Deploying-Guaches/blob/main/2.about.png" width="500"/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img align='right' src="https://github.com/JDQN/Deploying-Guaches/blob/main/3.Product.png" width="500"/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="https://github.com/JDQN/Deploying-Guaches/blob/main/4.RelizarPedido.png" width="500"/>
