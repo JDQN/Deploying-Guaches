@@ -3,7 +3,7 @@
    background-color:#03dac6;
    color: #fff;
    font-weight: 600;
-   border-radius: 0 0 40px 0;
+   border-radius: 0 0 20px 0;
    margin-top: .5rem;
    border: none;
    border-style: none;
@@ -20,7 +20,7 @@
    background-color:#ff0266;
    color: #fff;
    font-weight: 600;
-   border-radius: 40px 0 0 0;
+   border-radius: 20px 0 0 0;
    margin-left: 0rem;
    margin-top: .5rem;
    border: none;
@@ -75,11 +75,11 @@
 
 @media (min-width: 992px) { 
    .btnAgregar{
-      width: 50%;
+      width: 47%;
       background-color:#03dac6;
       color: #fff;
       font-weight: 600;
-      border-radius: 0 0 40px 0;
+      border-radius: 0 0 20px 0;
       margin-top: .5rem;
       border: none;
       border-style: none;
@@ -92,12 +92,12 @@
    }
    
    .btnPedido{
-      width: 50%;
+      width: 45%;
       background-color:#ff0266;
       color: #fff;
       font-weight: 600;
-      border-radius: 40px 0 0 0;
-      margin-left: 0rem;
+      border-radius: 20px 0 0 0;
+      margin-left: 10px;
       margin-top: .5rem;
       border: none;
    }

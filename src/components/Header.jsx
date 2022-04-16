@@ -20,16 +20,16 @@ const Header = () => {
 
                   <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                      <li className="nav-item">
-                        <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
+                        <NavLink className="nav-link" aria-current="page" to="/">Inicio</NavLink>
                      </li>
                      <li className="nav-item">
-                        <NavLink className="nav-link" to="/products">Product</NavLink>
+                        <NavLink className="nav-link" to="/products">Productos</NavLink>
                      </li>
                      <li className="nav-item">
-                        <NavLink className="nav-link" to="/about">About</NavLink>
+                        <NavLink className="nav-link" to="/about">Sobre Nosotros</NavLink>
                      </li>
                      <li className="nav-item">
-                        <NavLink className="nav-link" to="/contact">Contact</NavLink>
+                        <NavLink className="nav-link" to="/contact">Contactanos</NavLink>
                      </li>
                   </ul>
                   <NavLink className='navbar-brand  guaches' to="/">

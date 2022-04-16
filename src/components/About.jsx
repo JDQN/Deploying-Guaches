@@ -10,9 +10,12 @@ const About = () => {
                <div className="col-md-8">
                   <h1 className="textAbout fw-bold">Sobre Nosotros</h1>
                   <p className="parrafoAbaout lead">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui numquam repellendus, neque ut earum voluptatum veniam beatae, consequatur in sint, corporis at sequi? Sit, esse tempora voluptas non laudantium modi.
-                     Dolorem quod ipsam ab omnis obcaecati! Ex incidunt, ea eaque accusamus libero sapiente corrupti doloribus dolorem exercitationem dolor velit! Animi, maxime illo! Consequuntur, impedit ullam obcaecati distinctio aspernatur delectus nulla!
-                     Amet cumque repudiandae animi aliquam dolor provident iusto, temporibus adipisci nesciunt consequatur quaerat nemo mollitia libero pariatur in! Nulla, quos veritatis placeat porro qui ea repellat alias rem dolorum et!
+                     Somos un emprendimiento rolo dedicado al estampado y sublimado de textiles 
+                     y accesorios de toda clase para ocasiones especiales y empresas 
+                     (mugs, camisetas, gorras, buzos, medias) en diferentes materiales 
+                     de excelente calidad. Nuestro enfoque es hacer que las personas tengan 
+                     prendas diferentes, que resalten entre las cosas que vemos diariamente en el común, 
+                     con un toque de simplicidad, haciendo lo que mejor sabemos hacer estampando y sublimando.
                   </p>
                   <NavLink to="/contact" className="btn btnAbout btn-lg">
                      <i className='fa fa-envelope mx-2'></i>Contactanos

@@ -6,6 +6,21 @@
    .btn{
       margin-top:10px;
    }
+
+   .btnEnviarMensaje{
+      border-radius: 20px 0% 0% 0%;
+      background-color:#ff0266;
+      color: #fff;
+   }
+   .btnVolver{
+      border-radius: 0% 0% 20px 0%;
+      background-color:#03dac6;
+      color: #fff;
+   }
+   .titleContact{
+      color:#03dac6;
+      font-weight: 300;
+   }
 }
 @media (min-width: 576px) { 
    .botonContact{
@@ -13,7 +28,6 @@
       justify-content: center;
       margin: 12px -50px -12px -50px;
    }
-    
 }
 
 @media (min-width: 768px) { 
@@ -28,6 +42,10 @@
 @media (min-width: 992px) { 
    .guaches{
       display: inline-block;
+   }
+   .titleContact{
+      color:#ff0266;
+      font-weight: 900;
    }
 }
 

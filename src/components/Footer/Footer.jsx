@@ -2,6 +2,9 @@ import React from 'react'
 import './footer.css';
 
 const Footer = () => {
+
+ 
+
   return (
    <div className="footer">
       <footer className=" container d-flex flex-wrap justify-content-between align-items-center py-0 my-3 ">
@@ -14,19 +17,29 @@ const Footer = () => {
          </div>
 
          <ul className="iconosRedes col-md-2 justify-content-end list-unstyled d-flex">
+
             <li className="ms-3">
-               <i className="fa fa-instagram instagram"></i>
+               <a href='https://www.instagram.com/guache_shirts/' target="_blank">
+                  <i className="fa fa-instagram instagram"></i>
+               </a>
             </li>
+
             <li className="ms-3">
-               <i className="fa fa-facebook facebook"></i>
+               <a href='https://www.facebook.com/guache.shirts' target="_blank">
+                  <i className="fa fa-facebook facebook"></i>
+               </a>
             </li>
+
             <li className="ms-3">
-               <i className="fa fa-whatsapp whatsapp"></i>
+               <a  href='https://api.whatsapp.com/send?phone=+573134941951' target="_blank">
+                  <i className="fa fa-whatsapp whatsapp"></i>
+               </a>
             </li>
+            
          </ul>
       </footer>
- </div>
-  )
+   </div>
+   )
 }
 
 export default Footer

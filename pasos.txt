@@ -3,6 +3,7 @@ EN ESTE TXT MOSTRAMOS LOS FOLDER O ARCHIVES CREADOS PARA NUESTRO PROYECTO
    1. Import Browser Router -> npm install react-router-dom@6
    2. Import Bootstrap -> npm i bootstrap
    3. Import Font Awesome -> npm i fontawesome
+   4. Import swal from 'sweetalert2' -> npm install sweetalert2
 
    4. Create Folder Components
       a.Archive Home.jsx
